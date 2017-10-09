@@ -7,6 +7,7 @@ export const IndexPage = ({ athletes }) => (
       {athletes.map(
         athleteData => <AthleteCard key={athleteData.id} {...athleteData} />,
       )}
+      hello
     </div>
   </div>
 );
